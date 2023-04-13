@@ -1,0 +1,66 @@
+*{
+    -moz-box-sizing:border-box;
+    -ms-boxs-izing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.container-header{
+    max-width:1000px;
+    margin:0 auto;
+}
+#header{  
+    background-color:#fff;
+    position:fixed;
+    display:block;
+    width:100%;
+    position:fixed;
+    z-index:9;
+}
+.container-menubar{
+    max-width:1400px;
+    margin:0 auto;
+    display:flex;
+    grid-gap:10px;
+    justify-content:space-between;
+    align-items:center;
+}
+#header .right a{
+    color:#000
+}
+#header .left a{
+    color:rgba(0,0,0,.5);
+    font-size:18px;
+    font-weight:bold;
+}
+#header .left a:hover{
+   color: rgba(0,0,0,.7);
+}
+#header .right a:hover{
+    text-decoration:underline
+}
+.flexbox{
+    display:flex;
+    grid-gap:20px;
+}
+#banner{
+    background-image:url(../image/tree-forest-road-trail-sunlight-morning-4342-pxhere.com_.jpg);
+    background-size:cover;
+    height:100vh;
+    padding-top:220px;
+    color:#fff;
+    position:relative
+}
+#banner::after{
+    background-color:#00000057;
+    position:absolute;
+    width:100%;
+    height:100vh;
+    top:0;
+    right:0;
+    content:"";
+}
+#banner .content{
+    text-align:center;
+    position:relative;
+    z-index:3
+    
+}
