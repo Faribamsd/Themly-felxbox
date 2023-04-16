@@ -62,5 +62,34 @@
     text-align:center;
     position:relative;
     z-index:3
-    
+}
+#banner .content h2{
+    margin-top:-10px;
+}
+#banner .content h4{
+    margin-top:40px;
+}
+#banner .content ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    grid-gap:30px;
+    font-weight:bold;
+    margin-top:55px;
+}
+#banner .content ul li:first-child{
+    background-color:#fff;
+    border-radius:50px;
+}
+#banner .content ul li:last-child{
+    background-color:#2f5be7;
+    border-radius:50px;
+}
+#banner .content ul li a {
+    padding:18 55px;
+    color:#000;
+}
+#banner .content ul li:last-child a{
+    padding:18 75px;
+    color:#fff;
 }
