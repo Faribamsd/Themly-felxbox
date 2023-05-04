@@ -21,6 +21,13 @@
     line-height:30px;
     font-size:1.25rem;
     color:#17a2b8;
+    margin-bottom:80px;
+    margin-top:12px;
+}
+.container p{
+    color:#000000;
+    font-size:1.1rem;
+    margin:20 0px;
 }
 #menu-bar{  
     background-color:#fff;
@@ -122,8 +129,6 @@
 #features img{
     margin-top:15px;
 }
-
-
 
 
 
