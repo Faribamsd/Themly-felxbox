@@ -24,7 +24,7 @@
     margin-bottom:80px;
     margin-top:12px;
 }
-.container p{
+#aboutus p{
     color:#000000;
     font-size:1.1rem;
     margin:20 0px;
@@ -115,7 +115,7 @@
     padding:18 75px;
     color:#fff;
 }
-#features{
+#features,#teammember{
     display:flex;
     grid-gap:30px;
     justify-content:space-between;
@@ -129,6 +129,40 @@
 #features img{
     margin-top:15px;
 }
-
+#teammember .container-box{
+    padding:25px;
+}
+#teammember .right,#teammember .center,#teammember .left{
+    box-shadow:0px 0px 15px 0.1px rgba(172, 172, 210, 0.441);
+    line-height:25px;
+}
+#teammember img{
+    width:100%;
+}
+#teammember .logo{
+    display:flex;
+    grid-gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+}
+#teammember a{
+    font-size:1.5rem;
+    color:#272c30;
+    padding:8px;
+}
+#teammember .container-box h2{
+    margin-bottom:0px;
+}
+#teammember .container-box p:nth-child(2) {
+    font-size:1rem;
+    margin-bottom:30px;
+    margin-top:0px
+}
+#teammember .container-box p:nth-child(3) {
+ color:#17a2b8;
+ font-size: 1.25rem;
+ margin-bottom:30px;
+}
 
 
